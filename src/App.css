@@ -28,6 +28,14 @@
   color: #61dafb;
 }
 
+.pairlisting{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
