@@ -5,7 +5,7 @@ import React, { useState, useCallback } from 'react';
 function App() {
 
   const [currentName, setCurrentName] = useState('')
-  const [listOfName, setListOfName] = useState(['name1', 'name2', 'name3'])
+  const [listOfName, setListOfName] = useState([])
   const [namesEntered, setNamesEntered] = useState(false)
   const [firstList, setFirstList] = useState([])
   const [secondList, setSecondList] = useState([])
